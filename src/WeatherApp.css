@@ -1,0 +1,59 @@
+
+.weather-app {
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?nature,weather,sky");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 2rem;
+  }
+  
+ 
+  .custom-input {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .custom-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  .card-title,
+  .card-subtitle,
+  .card-text {
+    color: black;
+  }
+  
